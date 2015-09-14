@@ -1,17 +1,17 @@
 import java.util.Scanner;
-public class userInput
+public class UserInput
 	{
 		static Scanner userInput=new Scanner(System.in);
 			{
-				askForMove();
+				AskForMove();
 			}
-			public static void askForMove();
+			public static void AskForMove();
 				{
 					System.out.println("What Is Your Move?");
 					String move = userInput.nextLine();
 					if (move.equals("A1")||move.equals("a1"))
 						{
-							layout.board[0][0]=boardLoad.loader();
+							
 						}
 				}
 	}

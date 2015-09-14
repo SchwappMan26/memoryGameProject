@@ -4,8 +4,9 @@ public class Runner
 
 		public static void main(String[] args)
 			{
-				layout.setup();
-				layout.board();
+				Layout.setup();
+				Layout.layout();
+				
 
 			}
 

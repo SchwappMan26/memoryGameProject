@@ -1,9 +1,10 @@
 import java.util.Scanner;
-public class layout
+public class Layout
+
 	{
 		static String layout[][]=new String[4][4];
 			{
-				board();
+				layout();
 			}
 			public static void setup()
 				{
@@ -15,7 +16,7 @@ public class layout
 								}
 						}
 				}
-			public static void board()
+			public static void layout()
 				{
 					System.out.println("     1      2      3      4");
 					System.out.println("   ----------------------------");
