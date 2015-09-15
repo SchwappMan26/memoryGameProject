@@ -29,17 +29,13 @@ public class BoardLoad
 					
 					Collections.shuffle(objects);
 					int counter=0;
-					for(int row=0;row<16;row++)
+					for(int row=0;row<4;row++)
 						{
-							for(int col=0;col<16;col++)
+							for(int col=0;col<4;col++)
 								{
-									Layout.layout[row][col]=objects.get(counter);
+									Layout.hiddenLayout[row][col]=objects.get(counter);
 									counter++;	
 								}
 						}
-					
-					
-					
-					
 				}
 	}
